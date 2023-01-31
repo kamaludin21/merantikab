@@ -10,67 +10,69 @@
   } from 'vue-tabler-icons'
 </script>
 <template>
-  <section class="flex cursor-pointer justify-between border-y-2 px-10 py-2">
+  <section
+    class="flex w-full cursor-pointer justify-between overflow-x-auto whitespace-nowrap border-y-2 px-2 py-2 md:px-10"
+  >
     <a
       href="/berita"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       SEMUA BERITA
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full bg-gray-400 px-4 py-1.5 text-sm font-medium"
+      class="mr-2 rounded-full bg-gray-400 px-2 py-1.5 text-sm font-medium"
     >
       EKONOMI
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       KESEHATAN
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       PENDIDIKAN
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       INFRASTRUKTUR
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       TEKNOLOGI
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       ADAT DAN BUDAYA
     </a>
     <a
       href="/berita-kategori"
-      class="rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
+      class="mr-2 rounded-full px-4 py-1.5 text-sm font-medium hover:bg-gray-400"
     >
       PARIWISATA
     </a>
   </section>
-  <div class="mx-10 px-3 py-1 mt-10 mb-2 bg-gray-400 rounded-full w-fit h-fit">
+  <div class="mx-2 md:mx-10 px-3 py-1 mt-4 md:mt-10 mb-2 bg-gray-400 rounded-full w-fit h-fit">
     <p class="text-sm font-medium">Ekonomi</p>
   </div>
-  <div class="relative mb-16 flex space-x-8 px-10">
-    <div class="w-2/3 space-y-6">
+  <div class="relative mb-16 flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-8 md:space-y-0 px-2 md:px-10">
+    <div class="w-full md:w-2/3 space-y-6">
       <div class="space-y-4">
-        <p class="text-3xl font-bold">
+        <p class="text-2xl md:text-3xl font-bold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
           minus.
         </p>
-        <div class="flex items-center justify-between">
+        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 items-start md:items-center justify-between">
           <div class="w-fit text-gray-600">
             <div class="flex items-center space-x-2">
               <CalendarIcon class="h-4 w-4" stroke-width="1.5" />
@@ -191,7 +193,7 @@
         </div>
       </div>
     </div>
-    <div class="self-strecth sticky top-16 h-fit w-1/3">
+    <div class="self-strecth sticky top-16 h-fit w-full md:w-1/3">
       <p class="text-2xl font-medium">Berita Terkait</p>
       <div class="mt-1 mb-3 h-1 w-24 rounded-lg bg-gray-400"></div>
       <div class="mb-4 space-y-4">

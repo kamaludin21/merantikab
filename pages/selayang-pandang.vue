@@ -14,14 +14,18 @@
     />
   </section>
   <div
-    class="mx-10 -mt-32 mb-8 flex h-auto space-x-8 rounded-lg bg-white p-8 shadow-lg"
+    class="mx-2 -mt-32 mb-8 flex h-auto flex-col space-x-0 space-y-4 md:space-y-0 rounded-lg bg-white p-4 shadow-lg md:mx-10 md:flex-row md:space-x-8 md:p-8"
   >
-    <div class="w-content space-y-2 text-lg h-fit sticky top-16 font-medium">
-      <p>Tentang Kepulauan Meranti</p>
-      <p>Visi dan Misi</p>
-      <p>Lambang Daerah</p>
-      <p>Pemimpin</p>
-      <p>Riwayat Pimpinan</p>
+    <div
+      class="w-content static top-16 flex h-fit w-full space-y-0 space-x-2 overflow-x-auto rounded-lg bg-white text-lg font-medium md:sticky md:block md:w-fit md:space-y-2 md:space-x-0 md:p-0"
+    >
+      <div class="whitespace-nowrap rounded-lg bg-gray-200 p-2">
+        <p>Tentang Kepulauan Meranti</p>
+      </div>
+      <div class="whitespace-nowrap p-2"><p>Visi dan Misi</p></div>
+      <div class="whitespace-nowrap p-2"><p>Lambang Daerah</p></div>
+      <div class="whitespace-nowrap p-2"><p>Pemimpin</p></div>
+      <div class="whitespace-nowrap p-2"><p>Riwayat Pimpinan</p></div>
     </div>
     <div class="flex-1 space-y-16">
       <div>
@@ -85,9 +89,9 @@
             />
           </div>
           <p class="text-xl font-medium">Arti Unsur Elemen</p>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
             <div
-              class="grid w-full justify-items-center space-y-2 rounded-lg bg-gray-200 p-4"
+              class="grid w-full justify-items-center space-y-2 rounded-lg bg-gray-200 p-2 md:p-4"
               v-for="n in 6"
               :key="n"
             >
@@ -145,8 +149,10 @@
           <div
             class="absolute right-0 z-0 mt-4 h-0.5 w-[90%] bg-gray-600"
           ></div>
-          <div class="z-10 w-1/3 space-y-2">
-            <div class="w-fit rounded-full bg-gray-300 ring-2 ring-gray-600 px-4 py-1">
+          <div class="z-10 mr-2 w-full space-y-2 md:w-1/3">
+            <div
+              class="w-fit rounded-full bg-gray-300 px-4 py-1 ring-2 ring-gray-600"
+            >
               <p class="text-lg font-medium">2015 - 2020</p>
             </div>
             <div class="flex rounded-lg bg-gray-200 p-4">
@@ -162,8 +168,10 @@
               />
             </div>
           </div>
-          <div class="z-10 w-1/3 space-y-2">
-            <div class="w-fit rounded-full bg-gray-300 ring-2 ring-gray-600 px-4 py-1">
+          <div class="z-10 w-full space-y-2 md:w-1/3">
+            <div
+              class="w-fit rounded-full bg-gray-300 px-4 py-1 ring-2 ring-gray-600"
+            >
               <p class="text-lg font-medium">2010 - 2015</p>
             </div>
             <div class="flex rounded-lg bg-gray-200 p-4">

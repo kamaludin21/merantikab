@@ -9,24 +9,26 @@
 </script>
 
 <template>
-  <div class="flex h-80 w-full items-center justify-between px-10 py-16">
-    <div class="w-1/3 space-y-4">
+  <div
+    class="flex h-fit w-full flex-col items-start justify-between px-2 py-16 md:flex-row md:items-center md:px-10"
+  >
+	<div class="w-full md:w-1/3 space-y-4">
       <p class="text-5xl font-bold">Publikasi Dokumen</p>
       <p>
         Jelajahi berbagai publikasi dokumen yang disediakan oleh pemda untuk
         masyarakat umum sebagai bentuk transparansi
       </p>
     </div>
-    <div class="px-10">
+    <div class="hidden md:block px-2 md:px-10">
       <img src="./../assets/images/archive.png" class="h-auto w-44" alt="" />
     </div>
   </div>
-  <div class="flex space-x-4 px-10 pb-16">
-    <div class="sticky top-16 h-fit w-1/5 rounded-lg bg-gray-300 p-4">
+  <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 px-2 md:px-10 pb-16">
+		<div class="w-full md:w-1/5 rounded-lg h-fit sticky top-16 bg-gray-300 p-4">
       <p class="text-xl font-bold">Kategori</p>
       <div class="mt-1 mb-4 h-1 w-24 rounded-lg bg-gray-400"></div>
-      <div class="space-y-3">
-        <p>Semua Kategori</p>
+      <div class="space-y-0 space-x-2 md:space-x-0 md:space-y-2 w-full overflow-x-auto md:overflow-hidden flex md:block items-center whitespace-nowrap">
+        <p class="bg-gray-400 p-1.5 rounded-lg">Semua Kategori</p>
         <p>Produk Hukum</p>
         <p>Laporan Pemda</p>
         <p>Open Data</p>
@@ -35,8 +37,8 @@
       </div>
     </div>
     <div class="flex-1 space-y-4">
-      <div class="flex justify-between">
-        <div class="flex w-1/3 space-x-2 rounded-lg bg-gray-200 p-2">
+			<div class="flex space-x-2 justify-between">
+        <div class="flex flex-1 md:flex-none w-1/3 space-x-2 rounded-lg bg-gray-200 p-2">
           <input
             type="text"
             class="w-full bg-transparent px-2 focus:outline-none"
@@ -60,7 +62,7 @@
           v-for="n in 6"
           :key="n"
         >
-          <div class="w-1/12">
+          <div class="w-1/2 md:w-1/12">
             <img
               src="./../assets/images/pdf.png"
               class="h-auto w-full object-cover"
