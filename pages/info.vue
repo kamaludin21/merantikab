@@ -61,7 +61,7 @@
       <div class="space-y-4">
         <div
           class="h-full w-full space-y-2 rounded-lg bg-gray-300 p-4"
-          v-for="n in 20"
+          v-for="n in 10"
           :key="n"
         >
           <div class="w-fit rounded-full bg-gray-400 px-2">

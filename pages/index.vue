@@ -156,7 +156,7 @@
     <div
       class="flex w-full flex-col space-x-0 space-y-6 md:flex-row md:space-x-8 md:space-y-0"
     >
-      <div class="h-96 w-full overflow-x-auto md:w-1/2">
+      <div class="h-fit w-full overflow-x-auto overflow-y-hidden md:w-1/2">
         <div class="flex h-fit w-max space-x-4">
           <div class="h-96 w-72 md:w-96 rounded-lg bg-white">
 						<PhotoIcon/>
