@@ -85,8 +85,10 @@
     </div>
 
     <div class="grid w-full grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
-      <div class="flex w-full rounded-lg border-2" v-for="n in 9" :key="n">
-        <div class="w-1/3 bg-gray-200"></div>
+      <div class="flex w-full rounded-lg border-2 bg-white" v-for="n in 9" :key="n">
+        <div class="w-1/3">
+					<img src="../assets/images/1.jpg" class="w-full h-full object-cover rounded-l-lg" alt="">
+				</div>
         <div class="w-2/3 p-4">
           <p class="text-sm text-gray-400">21 Juni 2023</p>
           <p class="text-lg font-medium leading-6">
