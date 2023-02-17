@@ -46,7 +46,7 @@
 
   <!-- PETA SECTION -->
   <section
-    class="h-auto w-full space-y-12 py-16 px-2 text-center md:py-24 md:px-10"
+    class="h-auto w-full space-y-12 py-16 px-2 text-center md:py-24 md:px-10 lg:px-44"
   >
     <p class="text-3xl font-bold text-slate-800 md:text-4xl">
       Peta Kabupaten Kepulauan Meranti
@@ -87,7 +87,7 @@
   </section>
 
   <!-- Berita Section -->
-  <section class="space-y-6 py-16 px-2 md:py-24 md:px-10">
+  <section class="space-y-6 py-16 px-2 md:py-24 md:px-10 lg:px-44">
     <div class="flex items-center justify-between">
       <div class="text-2xl font-bold text-slate-800 md:text-3xl">
         <p>Berita Kab.</p>
@@ -156,7 +156,7 @@
         </div>
         <!-- Row Headline -->
         <div class="flex h-32 w-full overflow-x-auto">
-          <div class="flex h-full w-max space-x-4">
+          <div class="flex h-full w-full space-x-4">
             <div class="h-full w-52 md:w-1/4" v-for="n in 4" :key="n">
               <img
                 src="./../assets/images/3.jpg"
@@ -213,7 +213,7 @@
 
   <!-- Tautan Aplikasi Section -->
   <section
-    class="mx-2 my-16 flex flex-col rounded-2xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-700 via-green-600 to-green-500 p-4 shadow-2xl md:my-24 md:mx-10 md:flex-row md:p-10"
+    class="mx-2 my-16 flex flex-col rounded-2xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-700 via-green-600 to-green-500 p-4 shadow-2xl md:my-24 md:mx-10 lg:mx-44 md:flex-row md:p-10 "
   >
     <div
       class="mr-0 w-full flex-initial space-y-4 text-slate-800 md:mr-10 md:w-1/4"
@@ -274,7 +274,7 @@
 
   <!-- Info dan Pengumuman Section -->
   <section
-    class="flex flex-col space-x-0 border-primaryGreen py-16 px-2 md:flex-row md:space-x-4 md:space-y-0 md:py-24 md:px-10"
+    class="flex flex-col space-x-0 border-primaryGreen py-16 px-2 md:flex-row md:space-x-4 md:space-y-0 md:py-24 md:px-10  lg:px-44"
   >
     <div class="flex w-full flex-col justify-between md:w-1/3">
       <div class="flex-none space-y-4">
@@ -372,21 +372,21 @@
     >
       <div class="scrollbar-hide h-fit w-full overflow-x-auto md:w-1/2">
         <div class="flex h-fit w-max space-x-4">
-          <div class="h-96 w-72 rounded-lg md:w-96">
+          <div class="h-96 w-72 rounded-lg md:w-96 lg:w-[32rem]">
             <img
               src="./../assets/images/asean2023.jfif"
               class="h-full w-full rounded-lg object-cover"
               alt=""
             />
           </div>
-          <div class="h-96 w-72 rounded-lg md:w-96">
+          <div class="h-96 w-72 rounded-lg md:w-96 lg:w-[32rem]">
             <img
               src="./../assets/images/2.jpg"
               class="h-full w-full rounded-lg object-cover"
               alt=""
             />
           </div>
-          <div class="h-96 w-72 rounded-lg md:w-96">
+          <div class="h-96 w-72 rounded-lg md:w-96 lg:w-[32rem]">
             <img
               src="./../assets/images/3.jpg"
               class="h-full w-full rounded-lg object-cover"
@@ -399,7 +399,7 @@
         <div class="w-fit rounded-full bg-primaryGreen px-3 py-1">
           <span class="text-sm font-medium text-white">ACARA NASIONAL</span>
         </div>
-        <div class="w-full md:w-full">
+        <div class="w-full lg:w-1/2">
           <p class="text-4xl font-semibold text-slate-700">
             ASEAN Coordinating Council (ACC) ke-32
           </p>
@@ -432,7 +432,7 @@
 
   <!-- Informasi Publik Section -->
   <section
-    class="relative grid grid-cols-1 gap-5 bg-gradient-to-tr from-green-500 via-green-600 to-green-700 py-16 px-2 md:grid-cols-3 md:gap-10 md:py-24 md:px-10"
+    class="relative grid grid-cols-1 gap-5 bg-gradient-to-tr from-green-500 via-green-600 to-green-700 py-16 px-2 md:grid-cols-3 md:gap-10 md:py-24 md:px-10 lg:px-44"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -692,7 +692,7 @@
 
   <!-- Galeri Section -->
   <section
-    class="grid justify-items-center space-y-12 py-16 px-2 md:py-24 md:px-10"
+    class="grid justify-items-center space-y-12 py-16 px-2 md:py-24 md:px-10 lg:px-44"
   >
     <p class="text-3xl font-bold">Galeri</p>
     <div

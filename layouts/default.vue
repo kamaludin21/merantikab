@@ -51,7 +51,7 @@
           ? 'shadow-lg'
           : 'shadow-none'
       "
-      class="bg-white sticky top-0 z-50 w-full py-4 px-2 duration-300 md:px-10"
+      class="bg-white sticky top-0 z-50 w-full py-4 px-2 duration-300 md:px-10 lg:px-44"
     >
       <div class="flex w-full items-center justify-between">
         <div class="h-fit">
@@ -167,7 +167,7 @@
     <slot />
 
     <!-- Footer Section -->
-    <footer class="border-t-4 border-primaryGreen bg-white px-2 md:px-10">
+    <footer class="border-t-4 border-primaryGreen bg-white px-2 md:px-10 lg:px-44">
       <div
         class="flex w-full flex-col justify-between space-x-0 space-y-4 py-6 text-white md:flex-row md:space-y-0 md:space-x-10 md:py-10"
       >
