@@ -26,7 +26,7 @@ useHead({
 			<!-- <BackgroundsWaveBackground /> -->
 
 		</div>
-		<div class="w-2/3 relative h-32 -mt-16 p-4 bg-white shadow-md rounded-lg mx-auto">
+		<div class="w-2/3 relative h-32 -mt-16 p-4 bg-white/50 backdrop-blur-md shadow-md rounded-lg mx-auto">
 			<!-- <div class=" w-full h-full absolute top-0 left-0 rounded-lg flex flex-wrap overflow-hidden" >
 				<BackgroundsKuntumBackground class="w-16 h-16 fill-gray-200"/>	
 				<BackgroundsKuntumBackground class="w-16 h-16 fill-gray-200"/>	
@@ -34,7 +34,7 @@ useHead({
 			<div class="w-full h-full flex space-x-4">
 				<div class="p-4 relative hover:bg-white rounded-lg hover:shadow-lg hover:ring-1 duration-300 ring-primaryGreen flex items-center flex-col space-y-2 w-full">
 				<img src="./../assets/images/dashboard.png" class="w-auto h-10" alt="">
-				<p class="text-sm font-medium">Dashboard</p>
+				<p class="text-sm font-medium">Smart City</p>
 			</div>
 			<div class="p-4 relative hover:bg-white rounded-lg hover:shadow-lg hover:ring-1 duration-300 ring-primaryGreen flex items-center flex-col space-y-2 w-full">
 				<img src="./../assets/images/compliant.png" class="w-auto h-10" alt="">
@@ -46,7 +46,7 @@ useHead({
 			</div>
 			<div class="p-4 relative hover:bg-white rounded-lg hover:shadow-lg hover:ring-1 duration-300 ring-primaryGreen flex items-center flex-col space-y-2 w-full">
 				<img src="./../assets/images/data.png" class="w-auto h-10" alt="">
-				<p class="text-sm font-medium">Open Data</p>
+				<p class="text-sm font-medium">Statistik</p>
 			</div>
 			<div class="p-4 relative hover:bg-white rounded-lg hover:shadow-lg hover:ring-1 duration-300 ring-primaryGreen flex items-center flex-col space-y-2 w-full">
 				<img src="./../assets/images/open-door.png" class="w-auto h-10" alt="">
