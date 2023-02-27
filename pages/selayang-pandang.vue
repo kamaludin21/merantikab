@@ -89,7 +89,7 @@
               Bermartabat di provinsi RIAU INDONESIA
             </p>
             <p class="text-xl font-medium">Misi</p>
-            <ul class="text-lg text-slate-700">
+            <ul class="text-lg text-slate-700 list-disc pl-5">
               <li>Mewujudkan pemerataan pembangunan infrastruktur.</li>
               <li>
                 Meningkatkan dan pemerataan kualitas dan kuantitas sumber daya
